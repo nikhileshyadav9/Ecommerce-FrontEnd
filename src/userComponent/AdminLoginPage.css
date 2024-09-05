@@ -1,0 +1,93 @@
+/* Container for the admin card */
+.admincard-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  /* Sliding effect for the admin card */
+  .admincard {
+    display: flex;
+    width: 50rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    animation: slideInFromTop 1s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Image next to the admin card */
+  .admincard-image {
+    width: 50%;
+    height: auto;
+    border-radius: 10px 0 0 10px;
+    object-fit: cover;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  /* Styling for the admin form card */
+  .adminform-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    background-color: #ffffff;
+    width: 50%;
+  }
+  
+  /* Header styling with sliding effect */
+  .admincard-header {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  /* Text color for form elements */
+  .admintext-color {
+    color: #333;
+  }
+  
+  /* Background color for the form card */
+  .adminbg-color {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  /* Styling for the card title */
+  .admincard-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the card body */
+  .admincard-body {
+    padding: 20px;
+  }
+  
+  /* Keyframes for sliding in from the top */
+  @keyframes slideInFromTop {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Keyframes for fading in */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  

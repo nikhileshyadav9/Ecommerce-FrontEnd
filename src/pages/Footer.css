@@ -1,0 +1,96 @@
+/* Footer.css */
+.footer {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    padding: 20px 0;
+    border-top: 1px solid #333; /* Darker border for contrast */
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-brand {
+    flex: 1;
+}
+
+.footer-brand h1 {
+    font-size: 2rem;
+    margin: 0;
+    color: #fff; /* White text */
+    font-weight: 800;
+}
+
+.footer-links {
+    flex: 3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    margin-right: 20px;
+}
+
+.footer-section h4 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #fff; /* White text */
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #fff; /* White text */
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #007bff; /* Change to a different color on hover, if desired */
+}
+
+.footer-social {
+    display: flex;
+    gap: 15px;
+    flex: 1;
+    justify-content: center;
+}
+
+.footer-social h4 {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #fff; /* White text */
+}
+
+.footer-social a {
+    color: #fff; /* White text */
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.footer-social a:hover {
+    color: #007bff; /* Change to a different color on hover, if desired */
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px;
+    background-color: #111; /* Slightly lighter black for bottom section */
+}
+
+.footer-bottom p {
+    margin: 0;
+    color: #ccc; /* Slightly lighter text for bottom section */
+}

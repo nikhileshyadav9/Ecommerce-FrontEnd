@@ -1,0 +1,251 @@
+ /* Container for the register card
+.registercard-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  /* Sliding effect for the register card */
+  /* .registercard {
+    width: 50rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    animation: slideInFromLeft 1s ease-in-out;
+  } */
+  
+  /* Image next to the register card */
+  /* .registercard-image {
+    width: 50%;
+    height: auto;
+    border-radius: 10px 0 0 10px;
+    object-fit: cover;
+  } */
+  
+  /* Styling for the register form card */
+  /* .registerform-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+   */
+  /* Header styling with sliding effect */
+  /* .registercard-header {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    animation: slideInFromRight 1s ease-in-out;
+  } */
+  
+  /* Text color for form elements */
+  /* .registertext-color {
+    color: #333;
+  } */
+  
+  /* Background color for the form card */
+  /* .registercustom-bg {
+    background-color: #ffffff;
+  } */
+  
+  /* Background color for the header */
+  /* .registerbg-color {
+    background-color: #4caf50;
+    color: white;
+  }
+   */
+  /* Custom background text color */
+  /* .registercustom-bg-text {
+    color: #333;
+  } */
+  
+  /* Center text alignment for form titles */
+  /* .registertext-center {
+    text-align: center;
+  } */
+  
+  /* Styling for the card title */
+  /* .registercard-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+   */
+  /* Styling for the card body */
+  /* .registercard-body {
+    padding: 20px;
+  } */
+  
+  /* Keyframes for sliding in from the left */
+  /* @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  } */
+  
+  /* Keyframes for sliding in from the right */
+  /* @keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  } */
+    
+
+
+
+
+  /* Container for the register card */
+/* .registercard-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  /* Sliding effect for the register card */
+  /* .registercard {
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    animation: slideInFromLeft 1s ease-in-out;
+  } */
+  
+  /* Image next to the register card */
+  /* .registercard-image {
+    width: 50%;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+    object-fit: cover;
+    animation: slideInFromRight 1s ease-in-out;
+  } */
+  
+  /* Styling for the register form card */
+  .registerform-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    height: 100%; /* Ensure equal height */
+  }
+   
+  /* Header styling with sliding effect */
+  .registercard-header {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    animation: slideInFromRight 1s ease-in-out;
+  }
+  
+  /* Text color for form elements */
+  .registertext-color {
+    color: #333;
+  }
+  
+  /* Background color for the form card */
+  .registercustom-bg {
+    background-color: #ffffff;
+  }
+  
+  /* Background color for the header */
+  .registerbg-color {
+    background-color: #AD49E1;
+    color: white;
+  }
+  
+  /* Custom background text color */
+  .registercustom-bg-text {
+    color: #333;
+  }
+  
+  /* Center text alignment for form titles */
+  .registertext-center {
+    text-align: center;
+  }
+  
+  /* Styling for the card title */
+  .registercard-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the card body */
+  .registercard-body {
+    padding: 20px;
+  }
+  
+  /* Keyframes for sliding in from the left */
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Keyframes for sliding in from the right */
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+
+
+
+
+  .registercard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make it take full viewport height */
+  }
+  
+  .registercard-image {
+    width: 50%; /* Adjust this to your desired image width */
+    height: 600px; /* Match the image height to the width */
+    object-fit: cover; /* Ensures the image covers the entire space */
+    animation: slideInFromRight 1s ease-in-out;
+  }
+  
+  .registercard {
+    width: 50%px; /* Match the width of the image */
+    height: 660px; /* Match the height of the image */
+    border-radius: 10px; /* Add some rounded corners for a modern look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow for depth */
+    position: relative;
+    overflow: hidden;
+    animation: slideInFromLeft 1s ease-in-out;
+  }
+  
+  /* Ensure the image and card are side by side */
+  .registercard-image,
+  .registercard {
+    margin: 0 0px; /* Add some spacing between them */
+  }
+
+  .registerbtn{
+    width: 100%;
+  }

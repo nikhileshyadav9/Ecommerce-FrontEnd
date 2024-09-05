@@ -1,0 +1,150 @@
+/* General Styling */
+.gaclist-group {
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #ffffff;
+    padding: 1rem;
+    margin: 1rem 0;
+    animation: fadeIn 1s ease-out;
+    background-image: url('https://cdn.pixabay.com/photo/2021/08/26/10/10/flowers-6575780_960_720.jpg'); /* Floral background */
+    background-size: cover;
+  }
+  
+  .gacform-card {
+    padding: 1rem;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+  }
+  
+  /* Border Styling */
+  .gacborder-color {
+    border-color: #333;
+  }
+  
+  /* Link Styling */
+  .gaclist-group-item {
+    padding: 1rem;
+    border: none;
+    background-color: transparent;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .gaclist-group-item::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #9ccee9;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease;
+  }
+  
+  .gaclist-group-item:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+  
+  .gaclist-group-item:hover {
+    background-color: #f8f9fa;
+    color: #9ccee9;
+  }
+  
+  /* Action Styling */
+  .gaclist-group-item-action {
+    cursor: pointer;
+  }
+  
+  /* Background Colors */
+  .gacbg-color {
+    background-color: #9bcce8;
+    color: #fff;
+  }
+  
+  .gaccustom-bg-text {
+    color: #000;
+  }
+  
+  /* Keyframes for Animations */
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  /* Custom Scrollbar */
+  .gaclist-group {
+    max-height: 30rem;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #ccc #f8f9fa;
+  }
+  
+  .gaclist-group::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .gaclist-group::-webkit-scrollbar-track {
+    background: #9bcce8;
+  }
+  
+  .gaclist-group::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 0;
+    border: 2px solid #f8f9fa;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 576px) {
+    .gaclist-group-item {
+      font-size: 0.9rem;
+      padding: 0.75rem;
+    }
+  
+    .gaclist-group {
+      padding: 0.5rem;
+    }
+  }
+  
+  /* Hover Animation */
+  .gaclist-group-item {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .gaclist-group-item::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background: #9bcce8;
+    transform: translate(-50%, -50%) rotate(45deg);
+    transition: width 0.3s ease, height 0.3s ease;
+    z-index: 0;
+    opacity: 0;
+  }
+
+  .gaclist-group-item:hover::before {
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  
+  .gaclist-group-item:hover {
+    color: #000;
+    z-index: 1;
+  }
+  
+  

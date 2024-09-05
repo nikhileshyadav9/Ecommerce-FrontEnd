@@ -1,0 +1,133 @@
+/* MyOrder.css */
+
+/* Basic Card Styling */
+.mocard {
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    animation: fadeIn 1s ease-out;
+    position: relative; /* Ensure relative positioning for absolute children */
+  }
+  
+  .moform-card {
+    padding: 1rem;
+  }
+  
+  /* Card Header Styling */
+  .mocard-header {
+    background: #AD49E1;
+    color: #fff;
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Cartoon-style font */
+    animation: slideInFromTop 0.5s ease-out;
+    position: relative; /* Ensure relative positioning for absolute children */
+  }
+  
+  /* Custom Background and Text Colors */
+  .mocustom-bg {
+    background-color: #f9f9f9;
+  }
+  
+  .mocustom-bg-text {
+    color: #333;
+  }
+  
+  .mobg-color {
+    background-color: #007bff;
+  }
+  
+  /* Table Styling */
+  .motable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .motable-bordered {
+    border: 1px solid #ddd;
+  }
+  
+  .motable-bordered th, .motable-bordered td {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+  }
+  
+  .motable-hover tbody tr:hover {
+    background-color: #f1f1f1;
+    transition: background-color 0.3s ease;
+  }
+  
+  .motable thead th {
+    background-color: #AD49E1;
+    color: #fff;
+  }
+  
+  /* Responsive and Custom Scrollbars */
+  .card-body {
+    max-height: 45rem;
+    overflow-y: auto;
+  }
+  
+  /* Font and Text Styles */
+  .text-color {
+    color: #333;
+    animation: textSlideIn 1s ease-out;
+  }
+  
+  .table td, .table th {
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Cartoon-style font */
+  }
+  
+  /* Image Styling */
+  .img-fluid {
+    border-radius: 5px;
+    transition: transform 0.2s;
+  }
+  
+  .img-fluid:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+  
+  /* Animation Keyframes */
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes slideInFromTop {
+    from { transform: translateY(-20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+  
+  @keyframes textSlideIn {
+    from { transform: translateX(-20px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+  }
+  
+  @keyframes moveLeftToRight {
+    from { transform: translateX(-100px); }
+    to { transform: translateX(100vw); }
+  }
+  
+  /* Icon Animation */
+  .icon-move {
+    position: absolute; /* Ensure the icon moves relative to the container */
+    top: 50%; /* Center vertically */
+    left: -100px; /* Start position */
+    transform: translateY(-50%); /* Center vertically */
+    animation: moveLeftToRight 5s linear infinite;
+    font-size: 2rem;
+    color: #131313;
+    z-index: 10; /* Ensure icon is in front */
+  }
+  
+
+
+
+
+
+
+

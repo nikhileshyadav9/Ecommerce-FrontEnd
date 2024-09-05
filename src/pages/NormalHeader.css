@@ -1,0 +1,13 @@
+.text-color {
+    color: #8e44ad; /* Your preferred color */
+  }
+  
+  .navbar-nav .nav-item .dropdown-toggle::after {
+    display: none; /* Hide the default dropdown indicator */
+  }
+  
+  .dropdown-menu {
+    border-radius: 8px; /* Round the corners of the dropdown */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  

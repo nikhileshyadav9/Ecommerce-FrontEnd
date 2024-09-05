@@ -1,0 +1,11 @@
+.carousel-item img {
+    width: 100%;        /* Make the image fill the container width */
+    height: 800px;      /* Set a fixed height for the image */
+    object-fit: cover;
+    background-position:center;  /* Ensure the image covers the area without distortion */
+  }
+  
+  .carousel {
+    max-width: 100%; /* Ensure the carousel container is responsive */
+  }
+ 

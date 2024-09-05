@@ -1,0 +1,230 @@
+/* mycart.css
+.mymt-3 {
+    margin-top: 1rem;
+  }
+  
+  .mycard {
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .mycard:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .myform-card {
+    padding: 2rem;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .mymss-2 {
+    margin-left: 1rem;
+  }
+  
+  .myme-2 {
+    margin-right: 1rem;
+  }
+  
+  .mymb-5 {
+    margin-bottom: 2.5rem;
+  }
+  
+  .mycustom-bg {
+    background-color: #f8f9fa;
+  }
+  
+  .myborder-color {
+    border-color: #dee2e6;
+  }
+  
+  .mycard-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    border-bottom: 2px solid #0056b3;
+  }
+  
+  .mybg-color {
+    background-color: #f1f1f1;
+  }
+  
+  .mycustom-bg-text {
+    color: #333;
+  }
+  
+  .mycard-body {
+    padding: 1rem;
+  }
+  
+  .mytable-responsive {
+    overflow-x: auto;
+  }
+  
+  .mytable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .mytable-hover tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .mytable-bordered {
+    border: 1px solid #dee2e6;
+  }
+  
+  .mytable-bordered th,
+  .mytable-bordered td {
+    border: 1px solid #dee2e6;
+  }
+  
+  .mybtn {
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .mybtn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .mybtn-danger {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .mybtn-danger:hover {
+    background-color: #c82333;
+  }
+  
+  .mybtn-success {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .mybtn-success:hover {
+    background-color: #218838;
+  }
+  
+  .mycard-footer {
+    padding: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    border-top: 2px solid #0056b3;
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .mycart-container {
+    animation: slideIn 0.5s ease-out;
+  }
+   */
+
+
+
+
+
+
+
+
+
+   .mycart-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .mycart-card {
+    width: 100%;
+    max-width: 1200px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .mycart-header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .mycart-body {
+    padding: 20px;
+    overflow-x: auto;
+  }
+  
+  .mycart-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .mycart-table thead {
+    background-color: #f1f1f1;
+  }
+  
+  .mycart-table th, .mycart-table td {
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .mycart-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .mycart-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+  }
+  
+  .mycart-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #dc3545;
+  }
+  
+  .mycart-footer {
+    padding: 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+    border-top: 1px solid #ddd;
+  }
+  
+  .mycart-checkout-btn {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
+  .mycart-checkout-btn:hover {
+    background-color: #218838;
+  }
+  

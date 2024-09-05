@@ -1,0 +1,211 @@
+
+  /* .udcard {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  }
+  
+  .udcard::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/10/14/16/background-1814372_1280.jpg'); 
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3;
+    z-index: 0;
+  }
+  
+  .udcard-header {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    background-color: #8e44ad;
+    color: #ffffff;
+  }
+  
+  .udcard-body {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+  }
+  
+  input.form-control {
+    border-radius: 4px;
+    border: 1px solid #dcdcdc;
+  }
+  
+  .btn {
+    background-color: #8e44ad;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #732d91;
+  }
+  
+  .udtable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .udtable th, .udtable td {
+    padding: 12px;
+    border: 1px solid #dcdcdc;
+  }
+  
+  .udtable th {
+    background-color: #8e44ad;
+    color: #ffffff;
+  }
+  
+  .udtable tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .udtable tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .text-color {
+    color: #333333;
+  }
+  
+  .overflow-hidden {
+    overflow: hidden;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+   */
+
+
+
+
+
+   /* SearchOrder.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    font-size: 14px; /* Default font size */
+  }
+  
+  .udcard {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  }
+  
+  .udcard::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/10/14/16/background-1814372_1280.jpg'); /* Update with your image path */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.4;
+    z-index: 0;
+  }
+  
+  .udcard-header {
+    position: relative;
+    z-index: 1;
+    padding: 15px; /* Reduced padding */
+    background-color: #8e44ad;
+    color: #ffffff;
+    font-size: 16px; /* Smaller font size for the header */
+  }
+  
+  .udcard-body {
+    position: relative;
+    z-index: 1;
+    padding: 15px; /* Reduced padding */
+    font-size: 14px; /* Smaller font size for the body */
+  }
+  
+  input.form-control {
+    border-radius: 4px;
+    border: 1px solid #dcdcdc;
+    font-size: 14px; /* Smaller font size for input */
+  }
+  
+  .btn {
+    background-color: #8e44ad;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px; /* Adjusted padding for smaller button */
+    cursor: pointer;
+    font-size: 14px; /* Smaller font size for button */
+  }
+  
+  .btn:hover {
+    background-color: #732d91;
+  }
+  
+  .udtable {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px; /* Smaller font size for table */
+  }
+  
+  .udtable th, .udtable td {
+    padding: 8px; /* Reduced padding */
+    border: 1px solid #dcdcdc;
+  }
+  
+  .udtable th {
+    background-color: #8e44ad;
+    color: #ffffff;
+    font-size: 14px; /* Smaller font size for table headers */
+  }
+  
+  .udtable tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .udtable tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .text-color {
+    color: #333333;
+  }
+  
+  .overflow-hidden {
+    overflow: hidden;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  

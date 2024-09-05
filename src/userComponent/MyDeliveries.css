@@ -1,0 +1,157 @@
+/* Background and Layout *
+
+/* Card Styles */
+.mdcard {
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.8);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.mdcard:hover {
+  transform: scale(1.02);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.mdform-card {
+  padding: 1.5rem;
+}
+
+
+/* Table Styles */
+.mdtable-responsive {
+  overflow-x: auto;
+}
+
+.mdtable {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Arial', sans-serif;
+  font-size: 0.65rem; /* Reduced font size */
+  background-color: #707070;
+  border-radius: 10px;
+  overflow: hidden;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.mdtable th,
+.mdtable td {
+  padding: 0.2rem; /* Further reduced padding */
+  border: 1px solid #b2ebf2;
+  text-align: center;
+  vertical-align: middle; /* Ensures content stays centered vertically */
+  white-space: nowrap; /* Prevents text from wrapping */
+}
+
+
+.mdtable tbody tr:hover {
+  background-color: #707070; /* Light cyan */
+  transition: background-color 0.3s ease-in-out;
+  font-size: 1rem;
+}
+
+.mdtable tbody tr{
+  font-size: 1rem;
+  color: #399918;
+}
+
+.mdtable img {
+  max-width: 50px; /* Smaller image size */
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.mdtable img:hover {
+  transform: scale(1.15);
+}
+
+/* Custom Text Color */
+.mdcustom-bg-text {
+  color: #00796b; /* Dark teal text */
+}
+
+/* Animation Styles */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Add responsiveness for smaller screens */
+@media (max-width: 768px) {
+  .mdmt-3 {
+    padding: 1rem;
+  }
+
+  .mdtable th,
+  .mdtable td {
+    padding: 0.15rem; /* Further reduced padding for small screens */
+    font-size: 0.55rem; /* Further reduced font size for small screens */
+  }
+
+  .mdcard-header {
+    font-size: 0.875rem; /* Reduced font size for small screens */
+  }
+}
+
+
+
+
+
+
+
+/* Table Styles */
+.mdtable {
+  width: 100%;
+  border-collapse: collapse;
+  background-image: url('https://cdn.pixabay.com/photo/2016/11/10/14/16/background-1814372_1280.jpg'); /* Replace with your background image URL */
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(255, 255, 255, 0.8); /* Optional semi-transparent white background */
+  color: #333; /* Text color for better readability */
+  font-size: 0.85rem; /* Small text size */
+  overflow: hidden;
+}
+
+.mdtable th,
+.mdtable td {
+  padding: 0.5rem;
+  border: 1px solid #b2ebf2; /* Light cyan border */
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.6); /* Background color with slight transparency */
+}
+
+.mdtable th{
+  background-color: #9764C7;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.mdtable-hover tbody tr:hover {
+  background-color: rgba(224, 242, 241, 0.8); /* Light teal hover effect */
+}
+
+.mdtable img {
+  max-width: 70px; /* Reduced image size */
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.mdtable img:hover {
+  transform: scale(1.1);
+}
+
+/* Card Header Styles */
+.mdcard-header {
+  padding: 1rem;
+  border-bottom: 1px solid #b2ebf2;
+  background-color: #9764C7; /* Slightly transparent cyan */
+  border-radius: 15px 15px 0 0;
+}
+
+
+
+

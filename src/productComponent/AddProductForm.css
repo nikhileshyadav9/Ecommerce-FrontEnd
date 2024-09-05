@@ -1,0 +1,161 @@
+/* Container */
+.apmt-2 {
+    margin-top: 2rem;
+  }
+  
+  /* Card */
+  .apcard {
+    width: 50rem;
+    border-radius: 15px;
+    background: #ffffff;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    animation: slideIn 0.8s ease-out;
+  }
+  
+  /* Header */
+  .apcard-header {
+    background-color: #4caf50;
+    color: #ffffff;
+    text-align: center;
+    padding: 1.5rem 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Form Container */
+  .apform-card {
+    padding: 2rem;
+  }
+  
+  /* Form Labels */
+  .apform-card label {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  /* Form Inputs */
+  .apform-card input,
+  .apform-card textarea,
+  .apform-card select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .apform-card input:focus,
+  .apform-card textarea:focus,
+  .apform-card select:focus {
+    border-color: #4caf50;
+    outline: none;
+  }
+  
+  /* Button */
+  .apform-card .btn {
+    background-color: #4caf50;
+    color: #ffffff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .apform-card .btn:hover {
+    background-color: #43a047;
+    transform: translateY(-3px);
+  }
+  
+  /* Toast Notification */
+  .Toastify__toast--success {
+    background-color: #4caf50;
+  }
+  
+  .Toastify__toast--error {
+    background-color: #f44336;
+  }
+  
+  /* Animations */
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Custom Background */
+  .apcustom-bg {
+    background-color: #f8f9fa;
+  }
+  
+  /* Custom Border Color */
+  .apborder-color {
+    border-color: #4caf50;
+  }
+  
+  /* Custom Background Text */
+  .apcustom-bg-text {
+    color: #ffffff;
+  }
+  
+  /* Custom Card Title */
+  .apcard-title {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  /* Custom Card Body */
+  .apcard-body {
+    color: #555;
+  }
+  
+  /* Custom Text Color */
+  .text-color {
+    color: #333;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .apcard {
+      width: 90%;
+    }
+  }
+  
+
+
+
+  /* Animated Text */
+.admin-access-text {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .admin-access-text p {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: bold;
+    opacity: 0;
+    animation: fadeInText 2s ease-in forwards;
+  }
+  
+  @keyframes fadeInText {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

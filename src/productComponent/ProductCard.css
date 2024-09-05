@@ -1,0 +1,346 @@
+
+/* .ptcard {
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .ptcard:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .ptcard-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .ptcard:hover .ptcard-img-top {
+    transform: scale(1.1);
+  }
+  
+  .ptcard-body {
+    padding: 15px;
+    background-color: #f8f9fa;
+  }
+  
+  .ptcard-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .ptcard-text {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .ptcard-footer {
+    padding: 10px;
+    background-color: #f1f1f1;
+    position: relative;
+    transition: height 0.3s ease;
+  }
+  
+  .pttext-center {
+    text-align: center;
+  }
+  
+  .ptbtn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .ptbtn:hover {
+    background-color: #0056b3;
+  }
+  
+  .ptbg-color {
+    background-color: #007bff;
+  }
+  
+  .ptcustom-bg {
+    background-color: #ffffff;
+  }
+  
+  .ptcustom-bg-text {
+    color: #ffffff;
+  }
+  
+  .pttext-color {
+    color: #333333;
+  }
+  
+  .ptcard-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+   */
+  /* .ptcard-expanded .ptcard-content {
+    max-height: 500px; 
+  
+  .ptcard-content h4 {
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .ptcard-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+    transition: opacity 0.3s ease;
+  }
+  
+  .ptcard:hover .ptcard-footer {
+    opacity: 0.7;
+  }
+  
+  .ptcard-header {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    text-align: center;
+  }
+   */
+
+
+
+
+
+/* Product Card Styles */
+/* .ptcard {
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    background: #fff;
+  }
+  
+  .ptcard:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .ptcard-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .ptcard:hover .ptcard-img-top {
+    transform: scale(1.1);
+  }
+  
+  .ptcard-body {
+    padding: 15px;
+    background-color: #fff;
+  }
+  
+  .ptcard-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .ptcard-text {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .ptcard-footer {
+    padding: 15px;
+    background-color: #f8f9fa;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .ptcard-expanded .ptcard-footer {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .ptcard-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+  
+  .ptcard-expanded .ptcard-content {
+    max-height: 400px; 
+  }
+  
+  .pttext-center {
+    text-align: center;
+  }
+  
+  .ptbtn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .ptbtn:hover {
+    background-color: #0056b3;
+  }
+  
+  .ptbg-color {
+    background-color: #007bff;
+  }
+  
+  .ptcustom-bg {
+    background-color: #ffffff;
+  }
+  
+  .ptcustom-bg-text {
+    color: #ffffff;
+  }
+  
+  .pttext-color {
+    color: #333333;
+  }
+  
+  .ptcard-header {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .ptcard-expanded {
+    border-color: #007bff;
+  }
+ */
+
+
+
+
+
+
+
+
+
+
+ /* Product Card Styles */
+.ptcard {
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    background: #fff;
+    height: 450px; /* Adjust as needed */
+  }
+  
+  .ptcard:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .ptcard-img-top {
+    width: 100%;
+    height: 450px; /* Adjust as needed */
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .ptcard:hover .ptcard-img-top {
+    transform: scale(1.1);
+  }
+  
+  .ptcard-body {
+    padding: 15px;
+    background-color: #fff;
+  }
+  
+  .ptcard-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .ptcard-text {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .ptcard-footer {
+    padding: 15px;
+    background-color: #f8f9fa;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  .ptcard-expanded .ptcard-footer {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .ptcard-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+  
+  .ptcard-expanded .ptcard-content {
+    max-height: 200px; /* Adjust based on content size */
+  }
+  
+  .pttext-center {
+    text-align: center;
+  }
+  
+  .ptbtn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .ptbtn:hover {
+    background-color: #0056b3;
+  }
+  
+  .ptbg-color {
+    background-color: #007bff;
+  }
+  
+  .ptcustom-bg {
+    background-color: #ffffff;
+  }
+  
+  .ptcustom-bg-text {
+    color: #ffffff;
+  }
+  
+  .pttext-color {
+    color: #333333;
+  }
+  

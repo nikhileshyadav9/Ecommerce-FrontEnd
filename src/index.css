@@ -1,0 +1,66 @@
+.container, .container-fluid {
+    padding: 0; /* Ensure no padding is applied */
+    margin: 0 auto; /* Center container if needed */
+  }
+  
+  .row {
+    margin: 0; /* Remove any margin applied to rows */
+  }
+  
+  .col, .col-* {
+    padding: 0; /* Remove padding from columns if needed */
+  }
+  
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color:#FFFFFF
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .custom-bg {
+    background-color: #FFFFFF;
+  } 
+  
+  .text-color {
+    color:#25493F;
+  }
+  
+  .border-color {
+    border-color: #25493F;
+  }
+  
+  .custom-bg-text {
+    color:#31363F;
+  }
+  
+  .bg-color {
+    background-color: #AD49E1;
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/10/14/16/background-1814372_1280.jpg");
+  }
+  
+  .rounded-card {
+    padding: 1.5em .5em .5em;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  }
+  
+  .form-card {
+    padding: .2em .2em .2em;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  }
+  
+  .card {
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover .product-card  {
+    transform: scale(1.02);
+  }

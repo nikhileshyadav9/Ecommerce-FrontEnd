@@ -1,0 +1,100 @@
+/* .admin-header {
+    background-color: #343a40; 
+    padding: 10px 20px;
+    color: #ffffff; 
+  }
+  
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: auto;
+  }
+  
+  .nav-item {
+    margin-left: 15px;
+  }
+  
+  .nav-link {
+    color: #ffffff; 
+    font-weight: bold;
+  }
+  
+  .nav-link.active {
+    text-decoration: underline;
+  }
+  
+  .text-color {
+    color: #f8f9fa;
+  }
+  
+  .text-color:hover {
+    color: #adb5bd; 
+  }
+  
+  .navbar-brand {
+    color: #ffffff; 
+  }
+  
+  .navbar-brand i {
+    margin-right: 5px; 
+  }
+  
+  .navbar-toggler {
+    border: none; 
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 30 30'%3E%3Cpath stroke='%23ffffff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' d='M5 8h20M5 15h20M5 22h20'/%3E%3C/svg%3E");
+  }
+   */
+
+
+
+
+
+
+
+   .admin-header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    background-color: #f8f9fa; /* Light background color */
+  }
+  
+  .navbar-nav {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .nav-item {
+    list-style-type: none;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 12px; /* Rounded corners for a cartoon effect */
+    color: #333;
+    transition: all 0.3s ease;
+  }
+  
+  .cartoon-button {
+    background-color: #ffffff; /* White background */
+    border: 2px solid #ddd; /* Light gray border for a soft effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for a cartoonish pop-out effect */
+    text-align: center;
+  }
+  
+  .cartoon-button:hover {
+    background-color: #f0f0f0; /* Slightly darker background on hover */
+    border-color: #bbb; /* Darker border on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+    transform: scale(1.05); /* Slight scaling effect on hover */
+  }
+  
+  .text-color {
+    color: #007bff; /* Text color */
+  }
+  

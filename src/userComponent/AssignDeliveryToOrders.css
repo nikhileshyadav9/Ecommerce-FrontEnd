@@ -1,0 +1,151 @@
+/* Overall container styles */
+.assigncard {
+    background-color: #ffefd5; /* Light peach background */
+    border: 2px solid #ffa07a; /* Light coral border */
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    overflow: hidden;
+    animation: bounceIn 1s ease-in-out;
+  }
+  
+  .assigncard-header {
+    background-color: #ffa07a; /* Light coral */
+    color: #fff;
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Comic-like font */
+    text-align: center;
+    font-size: 24px;
+    border-radius: 20px 20px 0 0;
+    padding: 10px;
+  }
+  
+  .assigncard-body {
+    padding: 20px;
+  }
+  
+  .assignform-card {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f0e68c; /* Khaki background */
+    border-radius: 15px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .assigntext-center {
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 18px;
+  }
+  
+  /* Button styles */
+  .assignbtn {
+    background-color: #87cefa; /* Light sky blue */
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  .assignbtn:hover {
+    background-color: #4682b4; /* Steel blue */
+    transform: scale(1.1);
+  }
+  
+  /* Table styles */
+  .assigntable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+  }
+  
+  .assigntable th,
+  .assigntable td {
+    border: 2px solid #ffa07a; /* Light coral */
+    padding: 12px 15px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .assigntable th {
+    background-color: #ffa07a; /* Light coral */
+    color: white;
+    position: sticky;
+    top: 0;
+  }
+  
+  .assigntable-hover tbody tr:hover {
+    background-color: #f0e68c; /* Khaki background */
+    transform: scale(1.02);
+  }
+  
+  /* Scrollable table */
+  .assigntable-responsive {
+    overflow-y: auto;
+    height: 300px;
+  }
+  
+  /* Animations */
+  @keyframes bounceIn {
+    0% {
+      transform: scale(0.5);
+      opacity: 0;
+    }
+    60% {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes popIn {
+    0% {
+      transform: scale(0.8);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  .assigncard {
+    animation: popIn 0.8s ease-in-out;
+  }
+  
+  /* Form input and select styles */
+  .assignform-card input,
+  .assignform-card select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid #ffa07a;
+    border-radius: 15px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .assignform-card input:focus,
+  .assignform-card select:focus {
+    outline: none;
+    border-color: #4682b4; /* Steel blue */
+  }
+  
+  /* Toast notifications */
+  .Toastify__toast {
+    background-color: #f0e68c; /* Khaki background */
+    color: #333;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+  }
+  
+  .Toastify__progress-bar {
+    background-color: #ffa07a; /* Light coral */
+  }
+  

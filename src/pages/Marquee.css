@@ -1,0 +1,25 @@
+/* Marquee.css */
+.marquee {
+    width: 100%;
+    overflow: hidden;
+    background: #000000;
+    white-space: nowrap;
+    position: relative;
+    color: white;
+}
+
+.marquee-inner {
+    display: flex;
+    animation: marquee 15s linear infinite;
+}
+
+.marquee-inner p {
+    margin: 0;
+    padding-right: 2rem; /* Adjust spacing as needed */
+    font-size: 24px;
+}
+
+@keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}

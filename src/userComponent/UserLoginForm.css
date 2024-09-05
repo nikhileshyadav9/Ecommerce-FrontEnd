@@ -1,0 +1,221 @@
+/* Main container styling */
+/* .usercard {
+    width: 100%;
+    max-width: 400px;
+    margin: 2rem auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    animation: slideDown 0.5s ease-in-out;
+  } */
+  
+  /* Header styling */
+  /* .usercard-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .usercard-title {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+  } */
+  
+  /* Body styling */
+  /* .usercard-body {
+    padding: 2rem;
+    background-color: #f9f9f9;
+  } */
+  
+  /* Form label styling */
+  /* .form-label {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+   */
+  /* Input and select styling */
+  /* .form-control {
+    border-radius: 5px;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+   */
+  /* Button styling */
+  /* .btn {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  } */
+  
+  /* Text color */
+  /* .text-color {
+    color: #555;
+  } */
+  
+  /* Custom background and border color */
+  /* .usercustom-bg {
+    background-color: #f1f1f1;
+  }
+  
+  .border-color {
+    border-color: #007bff;
+  } */
+  
+  /* Animation for form slide down */
+  /* @keyframes slideDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+   */
+
+
+
+
+
+
+
+  /* Container for the image and form */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0; /* Top and bottom margin */
+    padding: 0;
+  }
+  
+  /* Styling for the image container */
+  .login-image {
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; /* No margin */
+  }
+  
+  .usercard-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    animation: slideDown 0.5s ease-in-out; /* Apply animation */
+  }
+  
+  /* User card styling */
+  .usercard {
+    flex: 1;
+    margin: 0; /* No margin */
+    max-width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    animation: slideDown 0.5s ease-in-out; /* Apply animation */
+  }
+  
+  /* Header styling */
+  .usercard-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .usercard-title {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Body styling */
+  .usercard-body {
+    padding: 2rem;
+    background-color: #f9f9f9;
+  }
+  
+  /* Form label styling */
+  .form-label {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Input and select styling */
+  .form-control {
+    border-radius: 5px;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Button styling */
+  .btn {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Text color */
+  .text-color {
+    color: #555;
+  }
+  
+  /* Custom background and border color */
+  .usercustom-bg {
+    background-color: #f1f1f1;
+  }
+  
+  .border-color {
+    border-color: #007bff;
+  }
+  
+  /* Animation for form slide down */
+  @keyframes slideDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
